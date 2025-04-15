@@ -54,7 +54,7 @@ nav a{
 }
 .header-section{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     color: var(--font-color2);
     display: flex;
 }
@@ -90,7 +90,7 @@ nav a{
     width: 30%;
 }
 .middle  img{
-    width: 100%;
+    width: 610px;
 }
 .right{
     width: 35%;
@@ -120,8 +120,121 @@ hr{
     height: 2px;
     background-color: gray;
 }
-@media (max-width: 1350px){
+.main-section{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color2);
+    display: flex;
+    color: var(--font-color2);
+}
+.left-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 250px;
+}
+b{
+    color: var(--font-color);
+    
+}
+.h2-wrapper{
+  margin: 20px 0;
+}
+.left-side h1{
+    margin: 20px 0;
+    font-size: 40px;
+}
+.stripe4{
+    width: 210px;
+    height: 2px;
+    background-color: gray;
+}
+.right-side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.years-wrapper{
+    display: flex;
+    align-items: center;
+}
+.years-wrapper h1{
+    margin: 0 10px;
+}
 
+
+@media (max-width: 1350px){
+    .middle  img{
+        width: 500px;
+    }
+}
+@media (max-width: 1200px){
+    .header-section{
+        display: flex;
+        flex-direction: column;
+        height: 180vh;
+    }
+    .stripe-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 50vh;
+    }
+    .arrow-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .h3-1{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .h3-2{
+        display: flex;
+        justify-content: center;
+    }
+    .s2-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .s3-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .hr-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .middle{
+        order: 3;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .middle img{
+        width: 75%;
+    }
 }
 @media (max-width: 1050px){
   
